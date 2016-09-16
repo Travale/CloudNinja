@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: coolf-16.ma
-//Last modified: Fri, Sep 16, 2016 12:50:52 PM
+//Name: coolf-16.0001.ma
+//Last modified: Fri, Sep 16, 2016 12:51:39 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -12,8 +12,8 @@ fileInfo "osv" "Mac OS X 10.11.6";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "B766732D-124E-308B-4514-8AA5B0D33739";
-	setAttr ".t" -type "double3" -11.548862219657808 5.7034815457907708 12.357154322956145 ;
-	setAttr ".r" -type "double3" 705.86164726963716 316.59999999994807 -1.0943660743140933e-15 ;
+	setAttr ".t" -type "double3" -8.869914922177184 4.6362630205254813 14.697605675221665 ;
+	setAttr ".r" -type "double3" 709.4616472696365 328.59999999994744 4.657828643031768e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F300E0FE-294E-C6B5-A435-D2BAF648DB4D";
 	setAttr -k off ".v";
@@ -649,4 +649,4 @@ connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape3.iog" ":initialShadingGroup.dsm" -na;
-// End of coolf-16.ma
+// End of coolf-16.0001.ma
