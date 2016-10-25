@@ -1,0 +1,22 @@
+In substance painter a new layout is available.  To get to the new layout go to view and reset UI. In the viewer there is a blur setting that can be used to blur 
+the background. Custom generators with .sbs file extension can be dragged to the generator shelf for easy access.  Hold down the control key to open a brush menu
+in the material environment.  Adjust the hardness for a brush or substance by holding control while dragging the mouse up and down.  To get something in to sketchfab
+first right click in the material environment and export textures.  Choose the sketchfab preset, export, enter a title or description then upload.
+
+Physically based rendering is based off of real world measurements.  All that is needed is to plug in values and it works.  It also allows us to create consistent
+materials that can be re-used.  There are two commonly used workflows for making materials: metalic/roughness and specular/glossiness.  Metalic workflows include
+a base color a metalic and a roughness attribute.  The metal map is used as a mask so it will look like metal. The white areas on the map can be used for reflectance
+value.  The dialectric aspect is hardcoded in the shader.  The dialectric has a very low maximum reflectance value.
+
+To open a project go to file then new.  This opens a dialogue box.  At the top you have the option to select a mesh to import. You can also choose a format for the 
+project: Direct x or open gl.  There is also a place to add additional texture maps.  If added they will be put in to the additional maps area under textureset settings
+The naming convention for the materials added must be the material name_ and whatever type of map it is.  You have the choice to change your mesh by going to edit
+and project config.  Under this you can change the polygons and the actual layout.  Go to bake normals to adjust normals.
+
+The shelf is a window divided in to three parts. The first tab is made up of windows holding certain types of textures.  The second section is made up of brushes and
+tools.  Last is the tab that contains materials.  Textures can be dragged and dropped from the explorer in to the textures tab in the shelf.  Drag and drop these textures
+in to the additional maps area to activate them.  You can also drag and drop as many alphas as you want in to the alphas tab in the shelf as well.  Items that you put in the 
+shelf are only avaialable for the project being used at the time.  Go to file and then clean to remove all of the new textures you have added to the program. If you want 
+the files to be permanent in substance then you need to put them in the program folder for substance.  
+
+    
