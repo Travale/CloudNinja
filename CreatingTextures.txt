@@ -1,0 +1,14 @@
+Textures are created for materials.  In substance painter the materials are not connected.  There is a layer for
+all of them.  The channels box above the additional maps can have new channels added to it.  The settings are specific
+to the texture set.  The baking tool allows for textures specific to the material set as well.  Moving to maya: materials
+must have specific Id's to be used in to substance painter. To activate all parts of the model while painting go to 
+edit then settings and uncheck the box which says "only display the material being painted".  Upgrade the resolution
+by choosing the size in the texture set settings.
+
+Baking maps is one of the first things you do when importing a mesh to substance painter.  Within the baking options
+you can tweak the frontal and rear distance.  The frontal distance distance represents the point of origin from which 
+the ray is cast in to the seam.  Rear distance tells it when to stop.  The low resolution mesh can be represented as 
+a white box.  The high resolution mesh box surrounds it.  The virutal envolope that projects rays in to the mesh could be
+represented as a box surrounding these other two boxes.  Increase the distance of the ray will travel with the distance 
+value.  It is a matter of seeing how far apart your meshes are.  In the baking options there is also an id map.  This
+map allows masking.    
