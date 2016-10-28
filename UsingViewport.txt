@@ -1,0 +1,20 @@
+Hold down the alt key to navigate the view port.  Alt middle mouse button will pan.  Reset the view by pressing the
+f key.  Click the 3-d button in the top left corner and click 3-d-2d viewport.  This will show the 3-d model and the
+2-d UVs.  In the viewer settings you can press the M key to switch to material mode and C key will take you to solo 
+mode.  Masks can be seen in the viewer settings as well if the mask is clicked on.  Toggle the shadows on and off in
+the viewer settings.  Controls for the view port shader can be found in these settings too.  Change the 
+wireframe opacity with the masking tool.  
+
+Each texture set or material has it's own layer stack.  A new layer can be created by clicking to plus button at the
+top of the layers box.  Each new layer will be created above the last layer.  Create a fill layer by clicking on the
+paint bucket icon above the layers box.  Fill layers are usually used with presets.  Pick these from the materials channel
+box.  Use the triplanar projection to get rid of the seams when filling an object a texture.  Lower the value of 
+roughness on the texture by selecting the layer then using the layers dropdown menu and selecting roughness.  drop the
+opacity and you will get a smoother texture.  
+
+In the texture set settings and channels area there are options to edit base color, height, roughness and metallic
+attributes.  The changes made there will also be made in the materials box for the layer you are using. Tap the C key
+to switch between channels so you can paint on them. You can create a new material by changing the values in the sliders
+base color, roughness, height and metallic.  Activate each slider by clicking on it's name in the layer properties.
+Add a base ambient occlusion channel in the textureset settings under channels.  Just click the plus button and scroll
+down to ambient occlusion.  
