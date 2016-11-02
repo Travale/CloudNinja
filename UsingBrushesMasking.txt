@@ -1,0 +1,28 @@
+When you are working in painter you are working with a combination of brush settings and material setup.  Click on
+menu sets to collapse and hide parts halfway or all the way. Alphas can be dragged and dropped in to the menu set. 
+Change the angle of the alpha in the menu set as well.  Paint in the UV view and the stroke will be extended across
+UV borders.  If you don't want this to happen change the alignment to UV in the menus.  Drag an alpha in to stencil
+to create a stencil.  To see the stencil in the viewport press the s key.  At the top of the UI there is a mirrior tool
+button.  This can be aligned to the x y or z axis.  
+
+Choose which particle brush you want to use then click the yellow button below the brush in the painter properties.  
+This will activate brush settings and physics for the particle brushes.  Each particle preset has it's own settings
+dialed in.  Distance time is an option that can create distance between the particles when painted on a model.  Smooth
+out the paint by decreasing the distance time.  Painted particles will collide with normal geometry and normal map information.
+Scratch detail can be created with the leaks particle brush.  Lower the gravity and the friction sliders to start off.
+Switch particle life random all the way to one.
+
+To start a mask create a fill layer.  Next click the button configure mask up above the layers. This gives you many
+mask options.  With masks white is opaque and black is transparent.  Right click on the mask that you have painted on
+and you will be able to copy it.  Paste the changes in that mask in to another mask with the right click as well.  Use
+the fill brush with a particle preset to fill in certain pieces of the mask.  Click the geometry button in the top left
+corner.  This will allow you to paint by UV shell or by object.  Just select the option in the properties.  In painter
+you have the ability to generate a mask through an id map.  Create a layer and go to configure mask options.  Go to add
+mask with color selection.  
+
+To get to a generator choose add effect in the layer options then click add generator.  Generators can only be applied to masks.  
+Maps that have been baked will be utilized every time you use a generator.  If generators overide each other use one
+of the blending modes to blend them together.  Add in a paint effect from the add effect option above the layers. This can
+paint on and off effects in the same layer.  Use a filter in the effects menu to blur sharpen or warp the masked layer.
+Use a filter on the main layer itself with drip intensity to get a good spread effect.  Process noises with levels control
+in the layer editor.  Use the histogram in the properties to adjust the roughness.  
