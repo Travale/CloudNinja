@@ -1,0 +1,13 @@
+The projection tool can be found in the top left corner in the UI.  Create a new layer so you can project new materials
+on to the mesh.  Projections are usualy used as full materials differing from stencil which is used as a secondary
+screen space mask.  In the projection properties all of the material presets are activated.  Click on the materials
+button to choose a preset material for the projection.  Color, height, roughness, metal and ambient occlusion can be
+painted at the same time.  Tap the c key to move through all of the maps you have created and you will see the painted
+material on each map.  
+
+Smart materials are pre-made materials that you can copy and share across other pieces of geometry.  You do not need to re-make complex stacks of effects.  
+Right click on the layer group and choose create smart material.  Substance painter will auto generate thumbnails of
+your smart material when you create the pre-set.  They will be in the materials menu on the bottom of your screen.
+Click and drag the new thumbnail in to the layer editor of a new mesh.  Smart materials are "smart" because the 
+generators for the material use the additional map information.  Overall smart materials give you a robust option to
+share materials across texture sets and projects.    
